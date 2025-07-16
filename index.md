@@ -13,9 +13,11 @@ Department of Land Economics (Geomatics group), NCCU, Taiwan (2016-2019) <br>
 
 ***
 ## Dissertation Work
-My PhD research investigates how both climate and human activities influence urban flash flooding. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.
-
+My PhD research investigates **how both climate and human activities influence urban flash flooding**. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.
 ![Selected 8 most flood-prone US inland cities.](img/all_cities_updated2.png)
+To answer the research question, I appled:
+1. Monte Carlo Simulation to detect trends in the frequency and magnitude of extreme precipitation.
+2. Attribution Analysis to see if flash flooding becomes more likely to happen in the recent period (2010-2023) compared to the past period (1996-2009).
 
 ***
 ## Connect with Me
