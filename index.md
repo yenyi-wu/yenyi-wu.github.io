@@ -25,7 +25,8 @@ To achieve the research objectives, the workflow is organized into two main phas
 2. **Attribution Analysis**<br>
    The focus is on determining whether the likelihood of flash flooding has changed over the study period. By comparing the recent period (2010–2023) to an earlier baseline (1996–2009), the analysis quantifies any changes in flash flood occurrence and account for natural variability using bootstrapping.
 
-After both steps are done, we assess possible links with observed precipitation trends.
+After both steps are done, we assess possible links with observed precipitation trends. For example, our result reveals a clear mismatch between two patterns in **Louisville, KY**, where while extreme precipitation do not show significant changes in its frequency and magnitude time series, **severe flash flooding is now 1.8 times more likely to occur during the recent period. Moderate flash flooding has also become 1.4 times more likely to happen**.
+
 
 ***
 ## Connect with Me
