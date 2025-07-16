@@ -20,9 +20,9 @@ To achieve the research objectives, the workflow is organized into two main phas
 
 **Phase 1: Trend Analysis in Extreme Precipitation and Flash Flooding (1996–2023)**
 
-1. **Monte Carlo Simulation**
+1. **Monte Carlo Simulation**<br>
    This step applies Monte Carlo methods to examine long-term trends in both the frequency and magnitude of extreme precipitation events. The simulation enables robust detection of shifts and variability in precipitation extremes over time.
-2. **Attribution Analysis**
+2. **Attribution Analysis**<br>
    The focus is on determining whether the likelihood of flash flooding has changed over the study period. By comparing the recent period (2010–2023) to an earlier baseline (1996–2009), the analysis quantifies any changes in flash flood occurrence and account for natural variability using bootstrapping.
 
 After both steps are done, we assess possible links with observed precipitation trends.
