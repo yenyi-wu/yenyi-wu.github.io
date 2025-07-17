@@ -13,7 +13,7 @@ Department of Land Economics (Geomatics group), NCCU, Taiwan (2016-2019) <br>
 
 ***
 ## Dissertation Work
-My PhD research investigates **how both climate and human activities influence urban flash flooding**. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.
+My PhD research investigates **how both climate and human activities influence urban flash flooding**. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.<br>
 ![Selected 8 most flood-prone US inland cities.](img/all_cities_updated2.png)<br>
 
 To achieve the research objectives, the workflow is organized into two main phases:
@@ -25,7 +25,7 @@ To achieve the research objectives, the workflow is organized into two main phas
 2. **Attribution Analysis**<br>
    The focus is on determining whether the likelihood of flash flooding has changed over the study period. By comparing the recent period (2010–2023) to an earlier baseline (1996–2009), the analysis quantifies any changes in flash flood occurrence and account for natural variability using bootstrapping.
 
-After both steps, I assessed the relationship between extreme precipitation trends and flash flooding risk. For example, in Louisville, KY, our findings highlight a distinct disconnect between these patterns: while the time series for extreme precipitation shows no significant changes in frequency or magnitude, severe flash flooding is now 1.8 times more likely to occur in the recent period. Moderate flash flooding has also increased, now 1.4 times more likely than before. The figure below illustrates that, throughout the recent period, flash flood probabilities consistently remain elevated compared to earlier years.
+After both steps, I assessed the relationship between extreme precipitation trends and flash flooding risk. For example, in Louisville, KY, our findings highlight a distinct disconnect between these patterns: while the time series for extreme precipitation shows no significant changes in frequency or magnitude, severe flash flooding is now 1.8 times more likely to occur in the recent period. Moderate flash flooding has also increased, now 1.4 times more likely than before. The figure below illustrates that, throughout the recent period, flash flood probabilities consistently remain elevated compared to earlier years.<br>
 
 ![Louisville_03293000_plot](img/Louisville_03293000_plot.png)<br>
 
