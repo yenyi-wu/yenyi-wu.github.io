@@ -37,4 +37,5 @@ In Phase 2, I will employ machine learning models to disentangle and quantify th
 
 ***
 ## Connect with Me
-[My personal website](https://yenyiwu.wordpress.com/) | [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/) | [Email me](mailto:ywu10@uwyo.edu)
+[My personal website](https://yenyiwu.wordpress.com/) | [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/) | [Email me](mailto:ywu10@uwyo.edu) <br>
+![logo](img/uw-hydrology-program-logo.png)<br>
