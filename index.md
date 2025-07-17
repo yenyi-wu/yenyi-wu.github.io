@@ -13,7 +13,7 @@ Department of Land Economics (Geomatics group), NCCU, Taiwan (2016-2019) <br>
 
 ***
 ## Dissertation Work
-My PhD research investigates **how both climate and human activities influence urban flash flooding**. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.<br>
+My PhD research investigates **how both climate and human activities influence urban flash flooding**. I focus on eight U.S. inland cities that have experienced the most severe flooding, selecting the specific HUC12 watersheds within these cities that have recorded the highest historical flood events. The figure below highlights the locations of these eight cities along with their corresponding study watersheds.<br><br>
 ![Selected 8 most flood-prone US inland cities.](img/all_cities_updated2.png)<br>
 
 To achieve the research objectives, the workflow is organized into two main phases:
@@ -37,5 +37,5 @@ In Phase 2, I will employ machine learning models to disentangle and quantify th
 
 ***
 ## Connect with Me
-[My personal website](https://yenyiwu.wordpress.com/) | [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/) | [Email me](mailto:ywu10@uwyo.edu) <br>
+[My personal website](https://yenyiwu.wordpress.com/) | [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/) | [Email me](mailto:ywu10@uwyo.edu) <br><br>
 ![logo](img/uw-hydrology-program-logo.png)<br>
