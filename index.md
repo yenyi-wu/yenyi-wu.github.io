@@ -31,7 +31,7 @@ After both steps, I assessed the relationship between extreme precipitation tren
 
 This contrast underscores that heightened flash flood risk in Louisville is not solely explained by observed precipitation extremes, pointing to additional climate or anthropogenic factors influencing urban flood vulnerability, which leads me to my second phase of work.
 
-**Phase 2: Data-Driven Assessment of Anthropogenic and Physical Controls on Urban Flash Flooding**
+**Phase 2: Data-Driven Assessment of Anthropogenic and Physical Controls on Urban Flash Flooding**<br>
 In Phase 2, I will employ machine learning models to disentangle and quantify the contributions of diverse factors—including changes in land cover, the presence of human-built infrastructure, and intrinsic watershed characteristics—to flash flood occurrence and severity. This integrated analytical framework enables a deeper understanding of how urbanization and landscape modification amplify or mitigate flood risks, complementing the statistical trends established in Phase 1.
 
 
