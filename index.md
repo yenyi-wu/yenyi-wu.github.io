@@ -25,11 +25,16 @@ To achieve the research objectives, the workflow is organized into two main phas
 2. **Attribution Analysis**<br>
    The focus is on determining whether the likelihood of flash flooding has changed over the study period. By comparing the recent period (2010–2023) to an earlier baseline (1996–2009), the analysis quantifies any changes in flash flood occurrence and account for natural variability using bootstrapping.
 
-After both steps are done, we assess possible links with observed precipitation trends. For example, our result reveals a clear mismatch between two patterns in **Louisville, KY**, where while extreme precipitation do not show significant changes in its frequency and magnitude time series, **severe flash flooding is now 1.8 times more likely to occur during the recent period. Moderate flash flooding has also become 1.4 times more likely to happen**.
+After both steps, I assessed the relationship between extreme precipitation trends and flash flooding risk. For example, in Louisville, KY, our findings highlight a distinct disconnect between these patterns: while the time series for extreme precipitation shows no significant changes in frequency or magnitude, severe flash flooding is now 1.8 times more likely to occur in the recent period. Moderate flash flooding has also increased, now 1.4 times more likely than before. The figure below illustrates that, throughout the recent period, flash flood probabilities consistently remain elevated compared to earlier years.
+
+![Louisville_03293000_plot](img/Louisville_03293000_plot.png)<br>
+
+This contrast underscores that heightened flash flood risk in Louisville is not solely explained by observed precipitation extremes, pointing to additional climate or anthropogenic factors influencing urban flood vulnerability, which leads me to my second phase of work.
+
+**Phase 2: Data-Driven Assessment of Anthropogenic and Physical Controls on Urban Flash Flooding**
+In Phase 2, I will employ machine learning models to disentangle and quantify the contributions of diverse factors—including changes in land cover, the presence of human-built infrastructure, and intrinsic watershed characteristics—to flash flood occurrence and severity. This integrated analytical framework enables a deeper understanding of how urbanization and landscape modification amplify or mitigate flood risks, complementing the statistical trends established in Phase 1.
 
 
 ***
 ## Connect with Me
-- [My personal website](https://yenyiwu.wordpress.com/)
-- [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/)
-- [Email me](mailto:ywu10@uwyo.edu)
+[My personal website](https://yenyiwu.wordpress.com/) | [LinkedIn](https://www.linkedin.com/in/yen-yi-wu/) | [Email me](mailto:ywu10@uwyo.edu)
