@@ -1,0 +1,82 @@
+name: Deploy Hugo site to Pages
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      # Setup latest stable Hugo extended
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          # Using 'latest' is recommended to always get the most current stable version
+          hugo-version: 'latest' 
+          extended: true
+
+      # NOTE: Removed 'Install Dart Sass' step (sudo snap install). 
+      # Hugo Extended typically handles SCSS compilation directly, or 
+      # necessary tools are installed via the 'npm ci' step below.
+
+      # Configure GitHub Pages environment
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      # Install Node.js dependencies if any (e.g., PostCSS, specific SASS compilers)
+      - name: Install Node.js dependencies
+        run: "[[ -f package.json ]] && npm ci || true"
+
+      # Build Hugo site
+      - name: Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+          TZ: America/Los_Angeles
+        run: |
+          hugo mod clean
+          hugo mod get
+          hugo mod tidy
+          # Use the base_url provided by the Pages environment
+          hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      # Upload artifact
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
