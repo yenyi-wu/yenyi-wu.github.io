@@ -1,21 +1,19 @@
 # some information about you
 name: "Yen-Yi Wu"
-nickname: "John"
+nickname: "YY"
 # greeting message before your name. it will default to "Hi! I am" if not provided
 greeting: "Hi, I am"
-image: "images/author/john.png"
+image: "images/author/YY.jpg"
 # give your some contact information. they will be used in the footer
 contactInfo:
-  email: "johndoe@example.com"
-  phone: "+0123456789"
-  github: johndoe
-  linkedin: johndoe
-  researchgate: john-doe
+  email: "[yenyiwu.taiwan@gmail.com]"
+  phone: "[+886 972650723]"
+  github: yenyi-wu
+  linkedin: yen-yi-wu
+  researchgate: Yen-Yi Wu
 
 # some summary about what you do
 summary:
-  - I am a Developer
-  - I am a Devops
-  - I love servers
-  - I work on open-source projects
-  - I love to work with some fun projects
+  - I love doing environmental science research.
+  - I graduated from University of Wyoming with a PhD in Hydrology Science in 2026.
+  - I enjoy working in teams and share my knowledge with others.
