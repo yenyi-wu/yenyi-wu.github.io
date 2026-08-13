@@ -24,13 +24,13 @@ languages:
   en:
     locale: en
     label: English
-    title: "John's Blog"
+    title: "Yen-Yi Wu"
     weight: 1
-  bn:
-    locale: bn
-    label: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+#  bn:
+#    locale: bn
+#    label: বাংলা
+#    title: জনের ব্লগ
+#    weight: 2
 # default language for the content
 defaultContentLanguage: en
 
